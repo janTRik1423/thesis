@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import sampler
 import pandas as pd
 from torchvision import datasets
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Dataset
 from torch.utils.data import SubsetRandomSampler
 from torchvision import transforms
 
