@@ -63,7 +63,7 @@ def train_model(model, num_epochs, train_loader,
     elapsed = (time.time() - start_time)/60
     print(f'Total Training Time: {elapsed:.2f} min')
 
-    test_acc = compute_accuracy(model, test_loader, device=device)
-    print(f'Test accuracy {test_acc :.2f}%')
+#     test_acc = compute_accuracy(model, test_loader, device=device)
+#     print(f'Test accuracy {test_acc :.2f}%')
 
     return minibatch_loss_list, train_acc_list, valid_acc_list
